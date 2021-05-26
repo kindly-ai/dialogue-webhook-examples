@@ -1,6 +1,6 @@
 # Dialogue webhook examples
 
-These are examples of how to solve common issues using a dialogue webhook:
+These are examples of how to solve common issues using a [dialogue webhook](https://docs.kindly.ai/webhooks):
 
 - [Give different replies based on the hour of the day](./src/examples/triggerByHour.js) - `/trigger-by-hour`.
 
@@ -21,3 +21,7 @@ To test with Kindly you can use ngrok to tunnel webhooks to your local machine:
 ```bash
 ngrok http 8000  # in another window
 ```
+
+## Further reading
+
+You can read more on using dialogue webhooks in our [documentation](https://docs.kindly.ai/webhooks-getting-started).
